@@ -1,0 +1,169 @@
+{
+    "dias": [
+        {
+            "dia": "lunes",
+            "historial": [
+                {
+                    "user": "Mario",
+                    "email": "marioguti033@gmail.com",
+                    "matricula": "9104FSY",
+                    "horaEntrada": "10:00",
+                    "horaSalida": "13:30"
+                },
+                {
+                    "user": "Lucia",
+                    "email": "lucia@gmail.com",
+                    "matricula": "5678XYZ",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "14:45"
+                },
+                {
+                    "user": "Fernando",
+                    "email": "fernando@gmail.com",
+                    "matricula": "1234AAA",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "17:00"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "12:00",
+                    "horaSalida": "15:00"
+                }
+            ]
+        },
+        {
+            "dia": "martes",
+            "historial": [
+                {
+                    "user": "Carlos",
+                    "email": "carlos222@gmail",
+                    "matricula": "4852OPA",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "18:30"
+                },
+                {
+                    "user": "Lucia",
+                    "email": "lucia@gmail.com",
+                    "matricula": "5678XYZ",
+                    "horaEntrada": "11:30",
+                    "horaSalida": "15:00"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "13:00",
+                    "horaSalida": "16:30"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "12:00",
+                    "horaSalida": "15:00"
+                }
+            ]
+        },
+        {
+            "dia": "miercoles",
+            "historial": [
+                {
+                    "user": "Mario",
+                    "email": "marioguti033@gmail.com",
+                    "matricula": "9104FSY",
+                    "horaEntrada": "10:00",
+                    "horaSalida": "13:30"
+                },
+                {
+                    "user": "Clara",
+                    "email": "clara12@gmail.com",
+                    "matricula": "8291MAC",
+                    "horaEntrada": "16:00",
+                    "horaSalida": "21:00"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "18:15",
+                    "horaSalida": "20:00"
+                },
+                {
+                    "user": "Antonio",
+                    "email": "antonio2003@gmail.com",
+                    "matricula": "7888BAJ",
+                    "horaEntrada": "19:00",
+                    "horaSalida": "22:00"
+                }
+            ]
+        },
+        {
+            "dia": "jueves",
+            "historial": [
+                {
+                    "user": "Mario",
+                    "email": "marioguti033@gmail.com",
+                    "matricula": "9104FSY",
+                    "horaEntrada": "10:00",
+                    "horaSalida": "13:30"
+                },
+                {
+                    "user": "Lucia",
+                    "email": "lucia@gmail.com",
+                    "matricula": "5678XYZ",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "14:45"
+                },
+                {
+                    "user": "Fernando",
+                    "email": "fernando@gmail.com",
+                    "matricula": "1234AAA",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "17:00"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "12:00",
+                    "horaSalida": "15:00"
+                }
+            ]
+        },
+        {
+            "dia": "viernes",
+            "historial": [
+                {
+                    "user": "Mario",
+                    "email": "marioguti033@gmail.com",
+                    "matricula": "9104FSY",
+                    "horaEntrada": "10:00",
+                    "horaSalida": "13:30"
+                },
+                {
+                    "user": "Lucia",
+                    "email": "lucia@gmail.com",
+                    "matricula": "5678XYZ",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "14:45"
+                },
+                {
+                    "user": "Fernando",
+                    "email": "fernando@gmail.com",
+                    "matricula": "1234AAA",
+                    "horaEntrada": "11:00",
+                    "horaSalida": "17:00"
+                },
+                {
+                    "user": "Juan",
+                    "email": "juan2001@gmail.com",
+                    "matricula": "7393KSB",
+                    "horaEntrada": "12:00",
+                    "horaSalida": "15:00"
+                }
+            ]
+        }
+    ]
+}

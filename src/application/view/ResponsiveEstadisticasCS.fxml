@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: rgb(255,156,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" />
+         </BorderPane.margin>
+         <top>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ParkTech" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </top>
+         <bottom>
+            <Button fx:id="volverButton" mnemonicParsing="false" onAction="#volver" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: #fff7; -fx-border-radius: 10px; -fx-border-width: 2;" text="Volver" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" top="10.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </bottom>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets left="30.0" right="30.0" />
+               </BorderPane.margin>
+               <top>
+                  <Group BorderPane.alignment="CENTER">
+                     <children>
+                        <ChoiceBox fx:id="diaChoiceBox" layoutY="3.0" prefHeight="31.0" prefWidth="206.0" />
+                        <Button fx:id="actualizarButton" layoutX="703.0" mnemonicParsing="false" onAction="#actualizar" styleClass="botton" stylesheets="@../styles/app2.css" text="Actualizar" textFill="WHITE" />
+                        <ChoiceBox fx:id="horaChoiceBox" layoutX="282.0" layoutY="3.0" prefHeight="31.0" prefWidth="225.0" />
+                     </children>
+                  </Group>
+               </top>
+               <center>
+                  <Group BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="21.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../assets/temperatura.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="21.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../assets/tiempo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="71.0" layoutY="28.0" text="Tiempo actual" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temperaturaText" layoutX="138.0" layoutY="90.0" text="20ºC" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="391.0" layoutY="90.0" text="Plazas libres" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="384.0" layoutY="205.0" text="Hora punta" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="errorText" alignment="CENTER" contentDisplay="CENTER" layoutX="191.0" layoutY="7.0" prefHeight="21.0" prefWidth="275.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="428.0" layoutY="45.0" text="Otras estadísticas" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="tiempoText" layoutX="138.0" layoutY="202.0" text="Soleado" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="plazasLibresText" layoutX="541.0" layoutY="88.0" text="78" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="horaPuntaText" layoutX="524.0" layoutY="203.0" text="12:00" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </center>
+   <top>
+      <BorderPane prefHeight="40.0" prefWidth="1300.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="40.0" />
+         </BorderPane.margin>
+         <right>
+            <Text fx:id="rolText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rol: " textAlignment="RIGHT" wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </right>
+         <left>
+            <Text fx:id="nameText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <center>
+            <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../assets/parktech-png.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </top>
+</BorderPane>

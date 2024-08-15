@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_333"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/USUARIO/Documents/Universidad/SEGUNDO/SEGUNDO CUATRIMESTRE/PROYECTO DE INFORMATICA/entrega/pri22-parktech/libraries/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USUARIO/Documents/Universidad/SEGUNDO/SEGUNDO CUATRIMESTRE/PROYECTO DE INFORMATICA/entrega/pri22-parktech/libraries/jfoenix-8.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USUARIO/Documents/Universidad/SEGUNDO/SEGUNDO CUATRIMESTRE/PROYECTO DE INFORMATICA/entrega/pri22-parktech/libraries/mariadb-java-client-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USUARIO/Documents/Universidad/SEGUNDO/SEGUNDO CUATRIMESTRE/PROYECTO DE INFORMATICA/entrega/pri22-parktech/libraries/org.apache.commons.io.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

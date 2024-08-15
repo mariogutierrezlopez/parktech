@@ -1,0 +1,182 @@
+[
+    {
+        "plaza": "P1",
+        "disponibilidad": true,
+        "matricula": "3855CHL"
+    },
+    {
+        "plaza": "P2",
+        "disponibilidad": false,
+        "matricula": "2455MHL"
+    },
+    {
+        "plaza": "P3",
+        "disponibilidad": false,
+        "matricula": "3755LML"
+    },
+    {
+        "plaza": "P4",
+        "disponibilidad": false,
+        "matricula": "6845MDL"
+    },
+    {
+        "plaza": "P5",
+        "disponibilidad": true,
+        "matricula": "8765HHL"
+    },
+    {
+        "plaza": "P6",
+        "disponibilidad": false,
+        "matricula": "4020LKR"
+    },
+    {
+        "plaza": "P7",
+        "disponibilidad": false,
+        "matricula": "7769JTH"
+    },
+    {
+        "plaza": "P8",
+        "disponibilidad": true,
+        "matricula": "3195CHL"
+    },
+    {
+        "plaza": "P9",
+        "disponibilidad": true,
+        "matricula": "8745GHT"
+    },
+    {
+        "plaza": "P10",
+        "disponibilidad": false,
+        "matricula": "4848CHL"
+    },
+    {
+        "plaza": "P11",
+        "disponibilidad": true,
+        "matricula": "3855CHL"
+    },
+    {
+        "plaza": "P12",
+        "disponibilidad": true,
+        "matricula": "8932THL"
+    },
+    {
+        "plaza": "P13",
+        "disponibilidad": false,
+        "matricula": "1265TRK"
+    },
+    {
+        "plaza": "P14",
+        "disponibilidad": true,
+        "matricula": "3855CHL"
+    },
+    {
+        "plaza": "P15",
+        "disponibilidad": true,
+        "matricula": "8923QLÑ"
+    },
+    {
+        "plaza": "P16",
+        "disponibilidad": true,
+        "matricula": "1250ASD"
+    },
+    {
+        "plaza": "P17",
+        "disponibilidad": true,
+        "matricula": "5421TGH"
+    },
+    {
+        "plaza": "P18",
+        "disponibilidad": false,
+        "matricula": "9421QLP"
+    },
+    {
+        "plaza": "P19",
+        "disponibilidad": true,
+        "matricula": "3412GFL"
+    },
+    {
+        "plaza": "P20",
+        "disponibilidad": true,
+        "matricula": "4378MLP"
+    },
+    {
+        "plaza": "P21",
+        "disponibilidad": true,
+        "matricula": "9089OJK"
+    },
+    {
+        "plaza": "P22",
+        "disponibilidad": true,
+        "matricula": "8312RLP"
+    },
+    {
+        "plaza": "P23",
+        "disponibilidad": true,
+        "matricula": "975BHB"
+    },
+    {
+        "plaza": "P24",
+        "disponibilidad": true,
+        "matricula": "6521JDT"
+    },
+    {
+        "plaza": "P25",
+        "disponibilidad": false,
+        "matricula": "4390HGP"
+    },
+    {
+        "plaza": "P26",
+        "disponibilidad": true,
+        "matricula": "7780YJP"
+    },
+    {
+        "plaza": "P27",
+        "disponibilidad": true,
+        "matricula": "3268TNP"
+    },
+    {
+        "plaza": "P28",
+        "disponibilidad": false,
+        "matricula": "9921DSW"
+    },
+    {
+        "plaza": "P29",
+        "disponibilidad": true,
+        "matricula": "5420TGP"
+    },
+    {
+        "plaza": "P30",
+        "disponibilidad": true,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P31",
+        "disponibilidad": false,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P32",
+        "disponibilidad": false,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P33",
+        "disponibilidad": true,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P34",
+        "disponibilidad": true,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P35",
+        "disponibilidad": true,
+        "matricula": "4268KHP"
+    },
+    {
+        "plaza": "P36",
+        "disponibilidad": true,
+        "matricula": "4268KHP"
+    }
+]

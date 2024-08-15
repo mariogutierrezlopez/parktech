@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: rgb(255,156,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" />
+         </BorderPane.margin>
+         <top>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ParkTech" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </top>
+         <bottom>
+            <Button fx:id="volverButton" mnemonicParsing="false" onAction="#volver" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: #fff7; -fx-border-radius: 10px; -fx-border-width: 2;" text="Volver" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" top="10.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </bottom>
+         <center>
+            <Group BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="160.0" fitWidth="388.0" layoutX="74.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+                     <image>
+                        <Image url="@../../../assets/ocupacionesVista.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="160.0" fitWidth="388.0" layoutX="281.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+                     <image>
+                        <Image url="@../../../assets/ocupacionesVista.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="164.0" layoutY="-82.0" text="*Mantén el cursor encima del botón para ver más información" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+          <RadioButton fx:id="radio1" layoutX="190.0" layoutY="-36.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT1" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio2" layoutX="190.0" layoutY="5.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT2" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio3" layoutX="190.0" layoutY="44.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT3" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio4" layoutX="190.0" layoutY="84.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT4" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio5" layoutX="190.0" layoutY="125.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT5" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio6" layoutX="190.0" layoutY="162.0" mnemonicParsing="false" prefWidth="21.0">
+                     <tooltip>
+                        <Tooltip fx:id="TT6" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio7" layoutX="190.0" layoutY="202.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT7" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio8" layoutX="190.0" layoutY="242.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT8" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio9" layoutX="190.0" layoutY="285.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT9" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio10" layoutX="334.0" layoutY="-36.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT10" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio11" layoutX="334.0" layoutY="5.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT11" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio12" layoutX="334.0" layoutY="44.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT12" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio13" layoutX="334.0" layoutY="84.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT13" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio14" layoutX="334.0" layoutY="125.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT14" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio15" layoutX="334.0" layoutY="162.0" mnemonicParsing="false" prefWidth="21.0">
+                     <tooltip>
+                        <Tooltip fx:id="TT15" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio16" layoutX="334.0" layoutY="202.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT16" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio17" layoutX="334.0" layoutY="242.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip id="TT17" fx:id="TT17" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio18" layoutX="334.0" layoutY="285.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT18" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio19" layoutX="393.0" layoutY="-36.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT19" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio20" layoutX="393.0" layoutY="5.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT20" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio21" layoutX="393.0" layoutY="44.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT21" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio22" layoutX="393.0" layoutY="84.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT22" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio23" layoutX="393.0" layoutY="125.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT23" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio24" layoutX="393.0" layoutY="162.0" mnemonicParsing="false" prefWidth="21.0">
+					      <tooltip>
+					         <Tooltip fx:id="TT24" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio25" layoutX="393.0" layoutY="202.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT25" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio26" layoutX="393.0" layoutY="242.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT26" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio27" layoutX="393.0" layoutY="285.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT27" />
+					      </tooltip>
+					   </RadioButton>
+					   <RadioButton fx:id="radio28" layoutX="541.0" layoutY="-36.0" mnemonicParsing="false">
+					      <tooltip>
+					         <Tooltip fx:id="TT28" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio29" layoutX="541.0" layoutY="5.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT29" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio30" layoutX="541.0" layoutY="44.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT30" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio31" layoutX="541.0" layoutY="84.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT31" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio32" layoutX="541.0" layoutY="125.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT32" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio33" layoutX="541.0" layoutY="162.0" mnemonicParsing="false" prefWidth="21.0">
+                     <tooltip>
+                        <Tooltip fx:id="TT33" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio34" layoutX="541.0" layoutY="202.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT34" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio35" layoutX="541.0" layoutY="242.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT35" />
+                     </tooltip>
+                  </RadioButton>
+                  <RadioButton fx:id="radio36" layoutX="541.0" layoutY="285.0" mnemonicParsing="false">
+                     <tooltip>
+                        <Tooltip fx:id="TT36" />
+                     </tooltip>
+                  </RadioButton>
+               </children>
+            </Group>
+         </center>
+      </BorderPane>
+   </center>
+   <top>
+      <BorderPane prefHeight="40.0" prefWidth="1300.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="40.0" />
+         </BorderPane.margin>
+         <right>
+            <Text fx:id="rolText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rol: " textAlignment="RIGHT" wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </right>
+         <left>
+            <Text fx:id="nameText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <center>
+            <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../assets/parktech-png.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </top>
+</BorderPane>

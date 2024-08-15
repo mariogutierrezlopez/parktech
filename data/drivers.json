@@ -1,0 +1,198 @@
+[
+    {
+        "user": "Fernando",
+        "email": "fernando@gmail.com",
+        "password": "123456",
+        "type": "driver",
+        "matricula": "1340CUZ"
+    },
+    {
+        "user": "mario",
+        "email": "marioguti033@gmail.com",
+        "password": "123123",
+        "type": "driver",
+        "matricula": "1147XZE"
+    },
+    {
+        "user": "Lucia",
+        "email": "lucia@gmail.com",
+        "password": "789012",
+        "type": "driver",
+        "matricula": "5266FWV"
+    },
+    {
+        "user": "katie41",
+        "email": "rushcaitlin@example.org",
+        "password": "J+97&Ido_R",
+        "type": "driver",
+        "matricula": "6738WBD"
+    },
+    {
+        "user": "sarah11",
+        "email": "angela06@example.com",
+        "password": "EQm3spSpt#",
+        "type": "driver",
+        "matricula": "6228BRQ"
+    },
+    {
+        "user": "danielsimmons",
+        "email": "megan76@example.org",
+        "password": "e9D8Qjp2^!",
+        "type": "driver",
+        "matricula": "1760AXL"
+    },
+    {
+        "user": "matthewobrien",
+        "email": "smithrussell@example.com",
+        "password": "+E3VE)fprA",
+        "type": "driver",
+        "matricula": "8640GIL"
+    },
+    {
+        "user": "jesselin",
+        "email": "xlewis@example.net",
+        "password": "Sz6XW+z3N(",
+        "type": "driver",
+        "matricula": "6032LBC"
+    },
+    {
+        "user": "zfrey",
+        "email": "freemanjermaine@example.org",
+        "password": "IIC6DX)t(M",
+        "type": "driver",
+        "matricula": "9808MUQ"
+    },
+    {
+        "user": "josephle",
+        "email": "agriffin@example.com",
+        "password": "L(w3(Nb06i",
+        "type": "driver",
+        "matricula": "8527CKC"
+    },
+    {
+        "user": "vargasmichele",
+        "email": "foxwilliam@example.org",
+        "password": "#9G78+v6ah",
+        "type": "driver",
+        "matricula": "4060FHW"
+    },
+    {
+        "user": "ojensen",
+        "email": "rebecca78@example.net",
+        "password": "&8@8Tbs+^s",
+        "type": "driver",
+        "matricula": "1670CCK"
+    },
+    {
+        "user": "morgan72",
+        "email": "jayjackson@example.com",
+        "password": "*zNJ%jKlw4",
+        "type": "driver",
+        "matricula": "1180IQP"
+    },
+    {
+        "user": "hartmanjames",
+        "email": "webstermiranda@example.com",
+        "password": "n2vNs1az)B",
+        "type": "driver",
+        "matricula": "5901KOY"
+    },
+    {
+        "user": "stricklandgregory",
+        "email": "thomasdenise@example.org",
+        "password": "r7@4VgY(gf",
+        "type": "driver",
+        "matricula": "7041BJF"
+    },
+    {
+        "user": "bryantelizabeth",
+        "email": "shawn29@example.org",
+        "password": "a_9AmKDdM@",
+        "type": "driver",
+        "matricula": "7862NOR"
+    },
+    {
+        "user": "jeanette32",
+        "email": "grimesdwayne@example.org",
+        "password": ")QJjkSIqi1",
+        "type": "driver",
+        "matricula": "2260YBT"
+    },
+    {
+        "user": "salassarah",
+        "email": "william21@example.net",
+        "password": ")l)r8+Xkx0",
+        "type": "driver",
+        "matricula": "4649KVO"
+    },
+    {
+        "user": "casey20",
+        "email": "uleon@example.org",
+        "password": ")Rxoi%mB!0",
+        "type": "driver",
+        "matricula": "3115INJ"
+    },
+    {
+        "user": "fgoodwin",
+        "email": "newtonkim@example.com",
+        "password": "B^7iY&XZ+b",
+        "type": "driver",
+        "matricula": "9507LAA"
+    },
+    {
+        "user": "reyesallen",
+        "email": "simmonsjennifer@example.com",
+        "password": "!38KHBnn$t",
+        "type": "driver",
+        "matricula": "9760BNP"
+    },
+    {
+        "user": "nsmith",
+        "email": "robertberg@example.org",
+        "password": "@P!1XGhQuW",
+        "type": "driver",
+        "matricula": "2406CTL"
+    },
+    {
+        "user": "jeremy42",
+        "email": "qhamilton@example.org",
+        "password": "+7+K%RpqIL",
+        "type": "driver",
+        "matricula": "9211RNK"
+    },
+    {
+        "user": "veronicathompson",
+        "email": "william00@example.net",
+        "password": "8!aJ5FjPjf",
+        "type": "driver",
+        "matricula": "5405YQN"
+    },
+    {
+        "user": "alanvalenzuela",
+        "email": "tinahopkins@example.com",
+        "password": "8QWC4AbbH)",
+        "type": "driver",
+        "matricula": "8107UOQ"
+    },
+    {
+        "user": "julia35",
+        "email": "morganjohn@example.net",
+        "password": "o+09CfQn%x",
+        "type": "driver",
+        "matricula": "4759MEF"
+    },
+    {
+        "user": "lhoward",
+        "email": "lmartin@example.com",
+        "password": "0#6eN16!Xj",
+        "type": "driver",
+        "matricula": "5218INO"
+    },
+    {
+        "user": "wbaxter",
+        "email": "roger58@example.org",
+        "password": "oY9vKJhzp@",
+        "type": "driver",
+        "matricula": "7272HUA"
+    }
+]

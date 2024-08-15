@@ -1,0 +1,41 @@
+.background{
+    -fx-background-color:  rgb(255,156,0);
+}
+
+.botton{
+    -fx-background-color: #fff3;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #fff5;
+    -fx-border-width: 3;
+}
+
+.imgBack{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: contain;
+}
+
+.imgCar{
+    -fx-background-image: url("../../../assets/parking.png");
+}
+
+.imgInOut{
+    -fx-background-image: url("../../../assets/historial.png");
+}
+
+.imgStadistics{
+    -fx-background-image: url("../../../assets/ajustes.png");
+}
+
+.imgBackgroundStats{
+    -fx-background-image: url("../../../assets/estadisticas.png");
+}
+
+.imgCochesIn{
+    -fx-background-image: url("../../../assets/cochesDentro.png");
+}
+
+.imgCarOcupation{
+    -fx-background-image: url("../../../assets/ocupaciones.png");
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: rgb(255,156,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" />
+         </BorderPane.margin>
+         <top>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ParkTech" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </top>
+         <bottom>
+            <Button fx:id="volverButton" mnemonicParsing="false" onAction="#volver" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: #fff7; -fx-border-radius: 10px; -fx-border-width: 2;" text="Volver" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" top="10.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </bottom>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets left="30.0" right="30.0" />
+               </BorderPane.margin>
+               <center>
+                  <TableView fx:id="tableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                    <columns>
+                      <TableColumn fx:id="nombreColumn" prefWidth="75.0" text="NOMBRE" />
+                      <TableColumn fx:id="apellidoColumn" prefWidth="75.0" text="APELLIDO" />
+                        <TableColumn fx:id="matriculaColumn" prefWidth="75.0" text="MATRICULA" />
+                        <TableColumn fx:id="horaEntradaColumn" prefWidth="75.0" text="ENTRADA" />
+                        <TableColumn fx:id="horaSalidaColumn" prefWidth="75.0" text="SALIDA" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </center>
+               <top>
+                  <Group BorderPane.alignment="CENTER">
+                     <children>
+                        <TextField fx:id="nombreTextField" layoutX="548.0" layoutY="10.0" promptText="Nombre" />
+                        <ChoiceBox fx:id="dayChoiceBox" layoutY="10.0" prefHeight="31.0" prefWidth="169.0" />
+                        <Button fx:id="actualizarButton" layoutX="191.0" layoutY="10.0" mnemonicParsing="false" onAction="#actualizar" styleClass="botton" stylesheets="@../styles/app2.css" text="Actualizar" textFill="WHITE" />
+                        <Button fx:id="searchButton" layoutX="705.0" layoutY="-6.0" mnemonicParsing="false" onAction="#searchName" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../assets/search%20icon.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                        <Label fx:id="errorText" alignment="CENTER" layoutX="275.0" layoutY="14.0" prefHeight="17.0" prefWidth="247.0" textFill="RED">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+               </top>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </center>
+   <top>
+      <BorderPane prefHeight="40.0" prefWidth="1300.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="40.0" />
+         </BorderPane.margin>
+         <right>
+            <Text fx:id="rolText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rol: " textAlignment="RIGHT" wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </right>
+         <left>
+            <Text fx:id="nameText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="280.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <center>
+            <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../assets/parktech-png.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </top>
+</BorderPane>

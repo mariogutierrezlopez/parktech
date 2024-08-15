@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: rgb(255,156,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="40.0" left="40.0" right="40.0" />
+         </BorderPane.margin>
+         <top>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ParkTech" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets top="10.0" />
+               </BorderPane.margin>
+            </Text>
+         </top>
+         <bottom>
+            <Button fx:id="cerrarSesionButton" mnemonicParsing="false" onAction="#cerrarSesion" prefHeight="35.0" prefWidth="180.0" style="-fx-background-color: transparent; -fx-border-color: #fff7; -fx-border-radius: 10px; -fx-border-width: 2;" text="Cerrar Sesión" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </bottom>
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <BorderPane fx:id="historialButton" onMouseClicked="#abrirHistorial" prefHeight="200.0" prefWidth="200.0" styleClass="botton" stylesheets="@../styles/app2.css">
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="10.0" top="20.0" />
+                     </GridPane.margin>
+                     <bottom>
+                        <Label text="HISTORIAL" textFill="WHITE" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="60.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../styles/app2.css" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="20.0" left="5.0" right="35.0" top="20.0" />
+                           </BorderPane.margin>
+                           <styleClass>
+                              <String fx:value="imgBack" />
+                              <String fx:value="imgInOut" />
+                           </styleClass>
+                        </BorderPane>
+                     </center>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </BorderPane>
+                  <BorderPane fx:id="parkingButton" onMouseClicked="#abrirParking" prefHeight="200.0" prefWidth="200.0" styleClass="botton" stylesheets="@../styles/app2.css" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </GridPane.margin>
+                     <bottom>
+                        <Label text="PARKING" textAlignment="CENTER" textFill="WHITE" wrapText="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="35.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../styles/app2.css" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </BorderPane.margin>
+                           <styleClass>
+                              <String fx:value="imgBack" />
+                              <String fx:value="imgCar" />
+                           </styleClass>
+                        </BorderPane>
+                     </center>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </BorderPane>
+                  <BorderPane fx:id="estadisticasButton" onMouseClicked="#abrirEstadísticas" prefHeight="200.0" prefWidth="200.0" styleClass="botton" stylesheets="@../styles/app2.css" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="10.0" right="20.0" top="20.0" />
+                     </GridPane.margin>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../styles/app2.css" BorderPane.alignment="CENTER">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <BorderPane.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </BorderPane.margin>
+                           <styleClass>
+                              <String fx:value="imgBack" />
+                              <String fx:value="imgBackgroundStats" />
+                           </styleClass>
+                        </BorderPane>
+                     </center>
+                     <bottom>
+                        <Label text="ESTADÍSTICAS" textFill="WHITE" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="60.0" />
+                           </BorderPane.margin>
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </BorderPane>
+               </children>
+            </GridPane>
+         </center>
+      </BorderPane>
+   </center>
+   <top>
+      <BorderPane prefHeight="40.0" prefWidth="1300.0" style="-fx-background-color: #0003;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="40.0" right="40.0" top="40.0" />
+         </BorderPane.margin>
+         <right>
+            <Text fx:id="rolText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Rol: " textAlignment="RIGHT" wrappingWidth="290.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </right>
+         <left>
+            <Text fx:id="nameText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre: " wrappingWidth="290.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <center>
+            <ImageView fitHeight="49.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../assets/parktech-png.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </ImageView>
+         </center>
+      </BorderPane>
+   </top>
+</BorderPane>

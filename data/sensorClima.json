@@ -1,0 +1,149 @@
+{
+    "dias": [
+        {
+            "dia": "Lunes",
+            "horas": [
+                {
+                    "hora": "10:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "15ºC",
+                    "plazasLibres": 37
+                },
+                {
+                    "hora": "14:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "28ºC",
+                    "plazasLibres": 41
+                },
+                {
+                    "hora": "18:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "31ºC",
+                    "plazasLibres": 21
+                },
+                {
+                    "hora": "22:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "10ºC",
+                    "plazasLibres": 53
+                }
+            ]
+        },
+        {
+            "dia": "Martes",
+            "horas": [
+                {
+                    "hora": "10:00",
+                    "temperatura": "8ºC",
+                    "tiempo": "Lluvia",
+                    "plazasLibres": 15
+                },
+                {
+                    "hora": "14:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "19ºC",
+                    "plazasLibres": 25
+                },
+                {
+                    "hora": "18:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "22ºC",
+                    "plazasLibres": 35
+                },
+                {
+                    "hora": "22:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "8ºC",
+                    "plazasLibres": 58
+                }
+            ]
+        },
+        {
+            "dia": "Miercoles",
+            "horas": [
+                {
+                    "hora": "10:00",
+                    "tiempo": "Nevando",
+                    "temperatura": "1ºC",
+                    "plazasLibres": 62
+                },
+                {
+                    "hora": "14:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "9ºC",
+                    "plazasLibres": 30
+                },
+                {
+                    "hora": "18:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "16ºC",
+                    "plazasLibres": 41
+                },
+                {
+                    "hora": "22:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "12ºC",
+                    "plazasLibres": 60
+                }
+            ]
+        },
+        {
+            "dia": "Jueves",
+            "horas": [
+                {
+                    "hora": "10:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "24ºC",
+                    "plazasLibres": 30
+                },
+                {
+                    "hora": "14:00",
+                    "tiempo": "Lluvia",
+                    "temperatura": "14ºC",
+                    "plazasLibres": 43
+                },
+                {
+                    "hora": "18:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "21ºC",
+                    "plazasLibres": 40
+                },
+                {
+                    "hora": "22:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "24ºC",
+                    "plazasLibres": 46
+                }
+            ]
+        },
+        {
+            "dia": "Viernes",
+            "horas": [
+                {
+                    "hora": "10:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "10ºC",
+                    "plazasLibres": 30
+                },
+                {
+                    "hora": "14:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "33ºC",
+                    "plazasLibres": 29
+                },
+                {
+                    "hora": "18:00",
+                    "tiempo": "Soleado",
+                    "temperatura": "28ºC",
+                    "plazasLibres": 13
+                },
+                {
+                    "hora": "22:00",
+                    "tiempo": "Nublado",
+                    "temperatura": "10ºC",
+                    "plazasLibres": 49
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+[
+    {
+        "user": "Manuel",
+        "email": "manuel@gmail.com",
+        "password": "13579",
+        "type": "dueño",
+        "IBAN": "ES86768569073578595177"
+    },
+    {
+        "user": "millersamantha",
+        "email": "maxwellian@example.com",
+        "password": "#@6zd&Ea8M",
+        "type": "dueño",
+        "IBAN": "ES74920974645139805874"
+    },
+    {
+        "user": "zgonzalez",
+        "email": "brianwilson@example.org",
+        "password": "8n#yekCK%2",
+        "type": "dueño",
+        "IBAN": "ES44139177510676986138"
+    },
+    {
+        "user": "englishrebecca",
+        "email": "branchthomas@example.org",
+        "password": "(5NbZt6mx&",
+        "type": "dueño",
+        "IBAN": "ES23677041212648780456"
+    },
+    {
+        "user": "ugreen",
+        "email": "timothycooke@example.com",
+        "password": "eVH^0HyX##",
+        "type": "dueño",
+        "IBAN": "ES94969857607820462857"
+    },
+    {
+        "user": "elizabethmann",
+        "email": "richardsondonald@example.org",
+        "password": "QDr&o)2zg*",
+        "type": "dueño",
+        "IBAN": "ES50536253262788670766"
+    },
+    {
+        "user": "hollylewis",
+        "email": "xpatterson@example.com",
+        "password": "1QLjr@@9!r",
+        "type": "dueño",
+        "IBAN": "ES97783427365850140500"
+    },
+    {
+        "user": "michelle88",
+        "email": "cynthia31@example.org",
+        "password": "j)z74So&rz",
+        "type": "dueño",
+        "IBAN": "ES20393597238174054943"
+    },
+    {
+        "user": "dshort",
+        "email": "reneemoore@example.net",
+        "password": "@v&7N9rphm",
+        "type": "dueño",
+        "IBAN": "ES25101423211825898510"
+    },
+    {
+        "user": "timothy75",
+        "email": "kyle57@example.net",
+        "password": "#s0XCjdu*)",
+        "type": "dueño",
+        "IBAN": "ES24709760315293700194"
+    },
+    {
+        "user": "jacksonanthony",
+        "email": "randall58@example.com",
+        "password": "w^NEe4UV)m",
+        "type": "dueño",
+        "IBAN": "ES05720961637348403616"
+    },
+    {
+        "user": "jeffrey56",
+        "email": "ronnie39@example.org",
+        "password": "W6syIUx_+&",
+        "type": "dueño",
+        "IBAN": "ES73295280862665380409"
+    },
+    {
+        "user": "campbelltodd",
+        "email": "coxdawn@example.org",
+        "password": ")T0LccQ@_L",
+        "type": "dueño",
+        "IBAN": "ES49926220550810668199"
+    },
+    {
+        "user": "cantrelltara",
+        "email": "danielle96@example.com",
+        "password": "))Q9RW%oA9",
+        "type": "dueño",
+        "IBAN": "ES25096964199145215604"
+    },
+    {
+        "user": "greenbrian",
+        "email": "xbrown@example.net",
+        "password": "m+0QZqLC*^",
+        "type": "dueño",
+        "IBAN": "ES63219151985876842169"
+    },
+    {
+        "user": "tsandoval",
+        "email": "mclaughlinbenjamin@example.org",
+        "password": "*1b5OHfNkp",
+        "type": "dueño",
+        "IBAN": "ES19853796930603993912"
+    },
+    {
+        "user": "brian68",
+        "email": "urojas@example.com",
+        "password": "^*JBGBsg(8",
+        "type": "dueño",
+        "IBAN": "ES29193515529976054601"
+    },
+    {
+        "user": "michelle47",
+        "email": "katelynruiz@example.org",
+        "password": "H%4Yj8Zm5s",
+        "type": "dueño",
+        "IBAN": "ES23892204951778089796"
+    },
+    {
+        "user": "henryjenna",
+        "email": "ashley81@example.net",
+        "password": "#3qpdB2idm",
+        "type": "dueño",
+        "IBAN": "ES40916574908715114077"
+    },
+    {
+        "user": "davisdaniel",
+        "email": "washingtonchristina@example.org",
+        "password": "mXY3H)xmg*",
+        "type": "dueño",
+        "IBAN": "ES40108712136633744093"
+    },
+    {
+        "user": "pamelagregory",
+        "email": "smithkayla@example.net",
+        "password": "&I+08FAxKJ",
+        "type": "dueño",
+        "IBAN": "ES30565420029188605867"
+    },
+    {
+        "user": "abishop",
+        "email": "eatonerin@example.net",
+        "password": "F$XGMi2R&8",
+        "type": "dueño",
+        "IBAN": "ES20295702164459699555"
+    },
+    {
+        "user": "cooksteven",
+        "email": "dwilson@example.com",
+        "password": "19O%Nk!Y*+",
+        "type": "dueño",
+        "IBAN": "ES42173540185922124466"
+    }
+]
